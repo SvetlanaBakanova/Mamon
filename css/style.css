@@ -1,0 +1,207 @@
+body {
+    font-family: 'Hellix', Arial, Helvetica, sans-serif;
+}
+
+.header__nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header__hero-title {
+    font-size: 57px;
+    line-height: 68px;
+    color: #202020;
+}
+
+.header__meta {
+    font-size: 32px;
+    line-height: 52px;
+    color: #4F4F4F;
+    padding-bottom: 70px;
+}
+
+.menu__link {
+    color: #202020;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.menu__link:hover {
+    text-decoration: none;
+}
+
+.menu__link--active {
+    background-color: #5528FF;
+    color: white;
+    border-radius: 5px;
+    padding: 3px 15px;
+}
+
+.tittle__button {
+    background: #5528FF;
+    border-radius: 10px;
+    border: none;
+    width: 235px;
+    height: 60px;
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.header__hero {
+    margin-bottom: 100px;
+    margin-top: 125px;
+}
+
+/* Полоска */
+.line__servise {
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+    text-align: center;
+    white-space: nowrap;
+    color: #c2c2c2;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+.line__servise:before,
+.line__servise:after {
+    content: '';
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    width: 50%;
+    height: 1px;
+    vertical-align: middle;
+    background: #c2c2c2;
+}
+
+.line__servise:before {
+    left: -10px;
+    margin-left: -50%;
+    width: 67%;
+}
+
+.line__servise:after {
+    left: 10px;
+    margin-right: -50%;
+    width: 200%;
+}
+
+.developer {
+    padding-top: 80px;
+}
+
+.title__mobile-dev {
+    font-size: 14px;
+    line-height: 16px;
+    color: #B2B2B2;
+}
+
+.cients__img {
+    padding-top: 50px;
+}
+
+.team-img {
+    border-radius: 50%;
+    margin-right: 35px;
+}
+
+.img__develop {
+    width: 25%;
+    align-self: center;
+}
+
+.develop {
+    width: 100%;
+}
+
+.team {
+    margin-bottom: 30px;
+    width: 270px;
+}
+
+.footer {
+    background-color: #F7F7F7;
+}
+
+.main__developers {
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+
+.main__clients {
+    margin-bottom: 100px;
+}
+
+.main__team {
+    margin-bottom: 100px;
+    margin-top: 40px;
+}
+
+.team {
+    padding-top: 60px;
+}
+
+.footer__container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.dev-pos {
+    font-size: 14px;
+    line-height: 16px;
+    color: #B2B2B2;
+}
+
+.dev-name {
+    font-size: 28px;
+    line-height: 33px;
+    color: #202020;
+}
+
+.main__clients[data-scroll] {
+    transition: all 1s;
+    transition-delay: 1s;
+}
+
+.main__clients[data-scroll="in"] {
+
+    opacity: 1;
+}
+
+.main__clients[data-scroll="out"] {
+
+    opacity: 0;
+}
+
+.main__team[data-scroll] {
+    transition: all 1s;
+}
+
+.main__team[data-scroll="in"] {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.main__team[data-scroll="out"] {
+    transform: translateX(-100px);
+    opacity: 0;
+}
+
+.main__developers[data-scroll] {
+    transition: all 1s;
+}
+
+.main__developers[data-scroll="in"] {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.main__developers[data-scroll="out"] {
+    transform: translateX(-100px);
+    opacity: 0;
+}
